@@ -13,3 +13,6 @@ class ImageMeta(BBox):
 		2) Knowledge about the dimensions of an image's pixels/voxels
 		3) Ability to ravel / unravel pixel to flat index
 	'''
+
+	def __init__(self, lower_point, upper_point, num_voxels):
+		pass
